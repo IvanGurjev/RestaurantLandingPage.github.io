@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The loop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -15,219 +15,271 @@
   <header class="header">
     <section class="section-header-menu">
       <div class="section_wrapper container menu_wrapper">
-        <button class="navbar-toggler" id="navbar-toggler" type="button">
-          <img src="img/bars-solid.svg" width="30px">
-        </button>
         <div class="menu">
-          <ul class="mainmenu_list">
-            <li class="mainmenu_item"><a class="menu_link" href="#">Для мужчин</a></li>
-            <li class="mainmenu_item"><a class="menu_link" href="#">Для женщин</a></li>
-            <li class="mainmenu_item"><a class="menu_link" href="#">Для детей</a></li>
-          </ul>
+          <img src="img/food 1.svg" alt="Корзина">
+          <a class="menu_link" href="#">f.palace</a>
         </div>
         <div class="logo">
           <a class="logo header_logo">
-            <img src="img/logo.svg" alt="Логотип">
+            <img src="img/6.png" alt="Логотип">
           </a>
-        </div>
-        <div class="menu">
-          <ul class="mainmenu_list">
-            <li class="mainmenu_item"><a class="menu_link" href="#">Оплата</a></li>
-            <li class="mainmenu_item"><a class="menu_link" href="#">Доставка</a></li>
-          </ul>
         </div>
         <div class="basket">
           <ul class="basket_list">
             <li class="basket_item">
               <a class="basket_link" href="#">
-                <img src="img/shopping-basket-icon.svg" alt="Корзина">
+                <img src="img/search.svg" alt="Корзина">
               </a>
             </li>
             <li class="basket_item">
               <a class="basket_link" href="#">
-                <img src="img/count-products.svg" alt="Количество товаров">
+                <img src="img/cart.svg" alt="Количество товаров">
+              </a>
+            </li>
+            <li class="basket_item">
+              <a class="basket_link" href="#">
+                <img src="img/menu.svg" alt="Количество товаров">
               </a>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <section class="section banner">
-      <div class="container">
-        <div class="slider_wrapper">
-          <div class="slider-list">
-            <div class="slider_item">
-              <div class="slider_item-text">
-                <p class="slider_text">Зимняя распродажа</p>
-                <p class="slider_big-text">Скидка до 90%</p>
-                <a href="#" class="button">Смотреть все модели</a>
-              </div>
-              <div class="slider_item-price">
-                <p class="slider_price-old">9900&#8381</p>
-                <p class="slider_price-new">1900&#8381</p>
-              </div>
-            </div>
-          </div>
-          <button type="button" class="slider_button slider_button-prev">
-            <img src="img/prev.png" alt="">
-          </button>
-          <button type="button" class="slider_button slider_button-next">
-            <img src="img/next.png" alt="">
-          </button>
-        </div>
-      </div>
-    </section>
   </header>
   <main>
-    <section class="section delivery">
-      <div class="container">
-        <p class="delivery__title"><b>бесплатная доставка</b> от 3000 &#8381;</p>
-        <p class="delivery__text">Сделайте заказ и получите подарок!</p>
-      </div>
-    </section>
-    <section class="section men-women">
-      <div class="container men-women__container">
-        <div class="men">
-          <h2 class="men-women__h2"><span>Мужская</span> коллекция</h2>
-          <p class="men-women__text">
-            Обувь, полуверы, костюмы
-          </p>
-          <a class="men-women__btn" href="">
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
-              </svg>              
-          </a>
+    <section class="section explore">
+      <div class="container_explore">
+        <div class="good_food">
+          <div class="restaurant">
+            <h2 class="restaurant_h2">
+              <a><img src="img/Rectangle 3158.svg"> Restaurant
+              </a>
+            </h2>
+          </div>
+          <div>
+            <h1 class="good_mood">Good Food</h1>
+            <h1 class="good_mood">Good Mood</h1>
+          </div>
+          <div class="good_food_text">
+            <p>The food palace is an neighborhood restaurent serving</p>
+            <p>seasonal global cuisine driven by the faire.</p> 
+          </div>
+          <div class="food_button">
+            <Button class="good_food_button">Explore Food Menu</Button>
+          </div>
+          <div>
+            <a href=""><img src="img/Facebook.svg" alt=""></a>
+            <a href="" class="socials"><img src="img/Instagram.svg" alt=""></a>
+            <a href="" class="socials"><img src="img/Twitter.svg" alt=""></a>
+          </div>
         </div>
-        <div class="women">
-          <h2 class="men-women__h2"><span>Женская</span> коллекция</h2>
-          <p class="men-women__text">
-            Обувь, полуверы, костюмы
-          </p>
-          <a class="men-women__btn" href="">
-            <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
-              </svg>              
-          </a>
+        <div class="first-block-image">
+          <img src="img/Image2.png" alt="">
         </div>
       </div>
     </section>
-    <section class="section dress">
-      <div class="container section_wrapper dress_wrapper">
-        <div class="dress_item dress_item-grey"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-cream"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-grey"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-cream"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-cream"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-grey"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-cream"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-        <div class="dress_item dress_item-grey"><img src="img/tshirt.png" alt="">ПЛАТЬЯ</div>
-      </div>
-    </section>
-    <section class="section new">
-      <div class="container">
-        <h2 class="new__h2">Новые модели</h2>
-        <div class="new__catalog">
-          <div class="new__card">
-            <svg class="card__fav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
-              <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
-            </svg>
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
-          </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
-          </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
-          </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
-          </div>
-          
+    <selection class="section-about-us">
+      <div class="container_about-us">
+        <div class="second-block-image">
+          <img src="img/sauce.png" alt="">
         </div>
-        <a class="new__btn" href="">
-          все модели
-          <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
-          </svg> 
-        </a>
-      </div>
-    </section>
-    <section class="section promo">
-      <div class="container">
-        <p class="promo__title"><b>получайте скидки и подарки</b></p>
-      </div>
-    </section>
-    <section class="section sales">
-      <div class="container">
-        <h2 class="new__h2">Скидки до 90%</h2>
-        <div class="new__catalog">
-          <div class="new__card">
-            <svg class="card__fav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-fill" viewBox="0 0 16 16">
-              <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/>
-            </svg>
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
+        <div class="good_food">
+          <div class="restaurant">
+            <h2 class="restaurant_h2">
+              <a>About us
+              </a>
+            </h2>
           </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
+          <div>
+            <h1 class="about-us-text-h1">Simple Way of</h1>
+            <h1 class="about-us-text-h1">Eating Delicious</h1>
           </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
+          <div class="good_food_text">
+            <p>Keep healthy food readily available. When you </p>
+            <p>get hungry, you're more likely to eat the first</p> 
+            <p>thing you see on the counter or in the</p>
           </div>
-          <div class="new__card">
-            <img class="card__img" src="img/card-img.jpg" alt="коктейльное платье">
-            <p class="card__title">Коктейльное платье</p>
-            <p class="card__price">&#8381; 40 000</p>
+    
+          <div class="food_button">
+            <Button class="good_food_button">Explore Food Menu</Button>
           </div>
-          
         </div>
-        <a class="new__btn" href="">
-          все модели
-          <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.3536 4.35356C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464468C16.9763 0.269205 16.6597 0.269205 16.4645 0.464468C16.2692 0.65973 16.2692 0.976312 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53554C16.6597 7.7308 16.9763 7.7308 17.1716 7.53554L20.3536 4.35356ZM-4.37114e-08 4.5L20 4.5L20 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="white"/>
-          </svg> 
-        </a>
       </div>
-    </section>
+
+    </selection>
+    <selection class="features">
+      <div class="main-block">
+        <div class="featues-middle">
+          <h2 class="features_h2">Features</h2>
+          <h1 class="features-text-h1">Our Awesome Services</h1>
+        </div>
+        <div class="features-blocks">
+          <div class="quality">
+            <img class="features_img" src="img/food.svg" alt="">
+            <h3 class="features_h3">Quality Food</h3>
+            <p class="features_p">Keep healthy food readily available. When you get hungry, you're more likely to</p>
+          </div>
+          <div class="super">
+            <img class="features_img" src="img/mouth.svg" alt="">
+            <h3 class="features_h3">Super Taste</h3>
+            <p class="features_p">Keep healthy food readily available. When you get hungry, you're more likely to</p>
+          </div>
+          <div class="fast">
+            <img class="features_img"src="img/truck.svg" alt="">
+            <h3 class="features_h3">Fast Delivery</h3>
+            <p class="features_p">Keep healthy food readily available. When you get hungry, you're more likely to</p>
+          </div>
+        </div>
+
+      </div>
+
+    </selection>
+    <selection class="recepies">
+      <div class="main-block">
+        <div class="featues-middle">
+          <h2 class="features_h2">Recepies</h2>
+          <h1 class="features-text-h1">Most Popular Items</h1>
+        </div>
+        <div class="dishes">
+          <div class="flame">
+            <img src="img/Rectangle 30.png" alt="">
+            <h2>Flame-boiled dish</h2>
+            <button class="dish-button">Add to cart</button>
+            <p>$ 20.99</p>
+            <p>8.5</p> 
+          </div>
+          <div class="peach">
+            <img src="img/Rectangle 31.png" alt="">
+            <h2>Peach Melba dish</h2>
+            <button class="dish-button">Add to cart</button>
+            <p>$ 20.99</p>
+            <p>9.5</p> 
+          </div>
+
+          <div class="steak">
+            <img src="img/Rectangle 32.png" alt="">
+            <h2>Delmonico Steak dish</h2>
+            <button class="dish-button">Add to cart</button>
+            <p>$ 20.99</p>
+            <p>8.0</p> 
+          </div>
+
+        </div>
+
+        <div class="recepies_button_block">
+          <Button class="recepies_button">See More Recepies</Button>
+        </div>
+
+      </div>
+
+    </selection>
+    <selection class="take away">
+      <div class="container_about-us">
+        <div class="second-block-image">
+          <img src="img/Image (2).png" alt="">
+        </div>
+        <div class="good_food">
+          <div class="restaurant">
+            <h2 class="restaurant_h2">
+              <a>Take away
+              </a>
+            </h2>
+          </div>
+          <div>
+            <h1 class="about-us-text-h1">Simple Way To</h1>
+            <h1 class="about-us-text-h1">Order Your Food</h1>
+          </div>
+          <div class="good_food_text">
+            <p>Keep healthy food readily available. When you </p>
+            <p>get hungry, you're more likely to eat the first</p> 
+            <p>thing you see on the counter or in the cupboard</p>
+          </div>
+          <div>
+            <a href=""><img src="img/Food 5 1.png" alt=""></a>
+          </div>
+    
+        </div>
+      </div>
+
+    </selection>
+    <selection class="Testimonal">
+      <div class="container_about-us">
+        <div class="good_food">
+          <div class="restaurant">
+            <h2 class="restaurant_h2">
+              <a>Testimonal
+              </a>
+            </h2>
+          </div>
+          <div>
+            <h1 class="about-us-text-h1">That's what our</h1>
+            <h1 class="about-us-text-h1">Client Says</h1>
+          </div>
+          <div class="good_food_text">
+            <p>“Food palace is an awesome place. Food is </p>
+            <p>everything we are. It's an extension of</p> 
+            <p>nationalist feeling, ethnic feeling, your </p>
+            <p>personal history, your province”</p>
+          </div>
+          <div class="good_food_text">
+            <p>Jessica Parker</p>
+            <p>Product Designer @ Kitty</p>
+          </div>
+    
+        </div>
+        <div class="second-block-image">
+          <img src="img/Image3.png" alt="">
+        </div>
+      </div>
+    </selection>
   </main>
-  <footer class="footer">
-    <section class="section contacts">
-      <div class="container">
-        <p class="contacts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.</p>
-        <p class="contacts">Основные ссылки</p>
-        <p class="contacts">Категории</p>
-        <p class="contacts">Полезные ссылки</p>
-        <p class="contacts">Соц сети</p>
-      </div>
-    </section>
-    <section class="section copyright">
-      <div class="container">
-        <p class="copyright">Copyright © 2019. Все права защищены</p>
-        <p class="copyright">Политика приватности</p>
-      </div>
-    </section>
-  </footer>
+  <footer class="site-footer">
+    <div class="menu">
+      <img src="img/food 1.svg" alt="Корзина">
+      <a class="menu_link" href="#">f.palace</a>
+      <p>info@food_palace.com</p>
+      <p>www.food_palace.com</p>
+    </div>
+    <div class="footer-block">
+      <h2>Our menu</h2>
+      <p>Breakfast</p>
+      <p>Lunce</p>
+      <p>Dinner</p>
+    </div>
+    <div class="footer-block">
+      <h2>Information</h2>
+      <p>About us</p>
+      <p>Testimonial</p>
+      <p>Event</p>
+    </div>
+    <div class="footer-block">
+      <h2>Useful links</h2>
+      <p>Services</p>
+      <p>Support</p>
+      <p>Conditions</p>
+    </div>
+    <div class="footer-block">
+      <h2>Social Handles</h2>
+      <p>Facebook</p>
+      <p>Twitter</p>
+      <p>Youtube</p>
+    </div>
+  
+
+
+</footer>
 </body>
+
+
+
+
 <script type="text/javascript">
-  const btn =document.getElementById("navbar-toggler");
+  /* const btn =document.getElementById("navbar-toggler");
   const menus = document.querySelectorAll(".menu");
   btn.addEventListener('click', () =>{
     for (let el of menus) {
       el.classList.toggle("show");
     }
-  })
+  }) */
 </script>
 </html>

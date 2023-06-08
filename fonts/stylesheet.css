@@ -1,0 +1,48 @@
+
+
+
+
+@font-face {
+    font-family: 'gilroyextrabold';
+    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroybold';
+    src: url('gilroy-bold-webfont.woff2') format('woff2'),
+         url('gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'circular_stdmedium';
+    src: url('circularstd-medium-webfont.woff2') format('woff2'),
+         url('circularstd-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('gilroy-semibold-webfont.woff2') format('woff2'),
+         url('gilroy-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'circular_stdbook';
+    src: url('circularstd-book-webfont.woff2') format('woff2'),
+         url('circularstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
