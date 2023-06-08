@@ -1,4 +1,4 @@
-## Название: RestaurantLandingPage
+## Название: Restaurant Landing Page
 
 [Шаблон сайта](https://www.figma.com/file/oqhsVkxbhd0sk7Bss4izDZ/RestaurantLandingPage-(1)?type=design&node-id=401-2)
 
